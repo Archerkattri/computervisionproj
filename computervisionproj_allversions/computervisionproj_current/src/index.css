@@ -1,0 +1,152 @@
+/* Importing the Poppins font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #000000; /* Black background for the whole page */
+  color: #ffffff; /* White text color */
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.App-header {
+  background-color: #1a1a1a; /* Dark grey background for the header */
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #ff0000; /* Red color for the header text */
+}
+
+button {
+  background-color: #ff0000; /* Red background for buttons */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 4px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+button:hover {
+  background-color: #cc0000; /* Darker red for hover effect */
+  transform: scale(1.05);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #ffffff; /* White color for labels */
+}
+
+input[type="file"] {
+  margin-bottom: 10px;
+}
+
+.placeholder {
+  color: #888888; /* Grey color for placeholder text */
+  font-style: italic;
+}
+
+.media-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.media-box {
+  flex: 0 1 45%;
+  padding: 10px;
+  background-color: #1a1a1a; /* Dark grey background for media boxes */
+  border-radius: 8px;
+}
+
+.media-box h2 {
+  margin-bottom: 10px;
+  color: #ff0000; /* Red color for media box headings */
+}
+
+.preview {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+/* Progress bar styles */
+.progress-container {
+  margin-top: 20px;
+  display: inline-block;
+  text-align: left;
+}
+
+.progress-container p {
+  margin: 5px 0;
+  color: #ffffff; /* White color for progress bar text */
+  font-weight: 600;
+}
+
+progress {
+  width: 30%;
+  height: 15px;
+  border-radius: 8px;
+  background-color: #000000; /* Black background for progress bars */
+}
+
+progress::-webkit-progress-bar {
+  background-color: #000000;
+  border-radius: 8px;
+}
+
+progress::-webkit-progress-value {
+  background-color: #ff0000; /* Red progress fill color */
+  border-radius: 8px;
+}
+
+progress::-moz-progress-bar {
+  background-color: #ff0000; /* Red progress fill color for Firefox */
+  border-radius: 8px;
+}
+
+/* Step indicator styles */
+.step-indicator {
+  margin-top: 20px;
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #ffffff; /* White color for step indicator text */
+}
+
+.step-indicator span {
+  display: inline-block;
+  background-color: #1a1a1a; /* Dark grey background for step indicator */
+  padding: 10px;
+  border-radius: 4px;
+  margin: 0 5px;
+  min-width: 150px;
+  text-align: center;
+}
+
+.step-indicator .step {
+  color: #ff0000; /* Red color for current step */
+}
+
+.step-indicator .completed {
+  background-color: #444444; /* Darker grey for completed steps */
+}
+
+.step-indicator .error {
+  background-color: #cc0000; /* Dark red for errors */
+}

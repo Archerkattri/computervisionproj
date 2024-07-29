@@ -1,0 +1,146 @@
+/* Reset some default styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  overflow-y: auto; /* Enable scrolling */
+}
+
+/* Global styles */
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align items to the top */
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+/* App container */
+.App {
+  text-align: center;
+  padding: 20px;
+  width: 100%; /* Allow the App to take full width */
+  max-width: 800px; /* Limit maximum width for better readability */
+}
+
+/* File input styling */
+input[type="file"] {
+  margin-bottom: 10px;
+}
+
+/* Button styling */
+button {
+  margin: 10px;
+  padding: 10px 20px; /* Increased padding for better touch targets */
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px; /* Rounded corners */
+  font-size: 16px; /* Consistent font size */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Search bar styling */
+.search-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  position: relative; /* For absolute positioning of suggestions */
+}
+
+.search-bar {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px; /* Rounded corners */
+  width: 300px; /* Fixed width */
+  margin-right: 10px; /* Space between search input and button */
+}
+
+/* Suggestions list styling */
+.suggestions {
+  list-style: none;
+  padding: 0;
+  margin: 5px 0 0; /* Move margin to only the top */
+  position: absolute; /* Position suggestions */
+  background-color: white; /* Background color */
+  border: 1px solid #ccc; /* Border around suggestions */
+  border-radius: 4px; /* Rounded corners */
+  max-height: 150px; /* Max height for scrolling */
+  overflow-y: auto; /* Scroll if too many suggestions */
+  z-index: 10; /* Ensure it appears above other elements */
+  width: calc(100% - 2px); /* Align width with the search bar, accounting for border */
+  top: 100%; /* Position directly below the search bar */
+}
+
+.suggestion-item {
+  padding: 10px;
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.suggestion-item:hover {
+  background-color: #e0e0e0; /* Highlight on hover */
+}
+
+/* Progress bar styling */
+.progress {
+  width: 100%;
+  height: 20px;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #4caf50;
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  border-radius: 4px;
+}
+
+/* Checkmark styling */
+.checkmark {
+  color: green;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+/* Media container styling */
+.media-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; /* Allow wrapping for better responsiveness */
+  margin-top: 20px;
+}
+
+.media-box {
+  width: 45%;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  padding: 10px;
+  border-radius: 5px; /* Rounded corners */
+  background-color: #fff; /* Background color for media boxes */
+}
+
+.media-box h2 {
+  margin-bottom: 10px;
+}
+
+/* Placeholder for media */
+.placeholder {
+  border: 2px dashed #ccc;
+  padding: 50px;
+  text-align: center; /* Center text inside placeholder */
+}
+
+/* New styles for the ready message */
+.ready-message {
+  color: green; /* Change color as needed */
+  font-weight: bold;
+  margin: 10px 0; /* Add some margin */
+}

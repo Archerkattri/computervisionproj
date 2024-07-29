@@ -1,0 +1,250 @@
+2024-07-19 13:40:18,234 - INFO - Upload folder ensured at: C:\Users\krish\Documents\Project\FeatureRecall\impfiles\PycharmProjects\frfr\app\static\uploads
+2024-07-19 13:40:18,259 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-19 13:40:18,259 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-19 13:40:22,816 - INFO - 127.0.0.1 - - [19/Jul/2024 13:40:22] "GET /generate-progress HTTP/1.1" 200 -
+2024-07-19 13:40:25,053 - INFO - 127.0.0.1 - - [19/Jul/2024 13:40:25] "GET /generate-progress HTTP/1.1" 200 -
+2024-07-19 13:40:25,270 - INFO - 127.0.0.1 - - [19/Jul/2024 13:40:25] "GET /generate-progress HTTP/1.1" 200 -
+2024-07-19 13:40:25,537 - INFO - 127.0.0.1 - - [19/Jul/2024 13:40:25] "GET /generate-progress HTTP/1.1" 200 -
+2024-07-19 13:40:25,593 - INFO - 127.0.0.1 - - [19/Jul/2024 13:40:25] "GET /generate-progress HTTP/1.1" 200 -
+2024-07-19 13:40:25,853 - INFO - 127.0.0.1 - - [19/Jul/2024 13:40:25] "GET /generate-progress HTTP/1.1" 200 -
+2024-07-19 13:40:25,875 - INFO - 127.0.0.1 - - [19/Jul/2024 13:40:25] "GET /generate-progress HTTP/1.1" 200 -
+2024-07-19 13:40:25,916 - INFO - 127.0.0.1 - - [19/Jul/2024 13:40:25] "GET /generate-progress HTTP/1.1" 200 -
+2024-07-19 13:40:26,168 - INFO - 127.0.0.1 - - [19/Jul/2024 13:40:26] "GET /generate-progress HTTP/1.1" 200 -
+2024-07-19 13:40:26,627 - INFO - 127.0.0.1 - - [19/Jul/2024 13:40:26] "GET /generate-progress HTTP/1.1" 200 -
+2024-07-19 13:40:27,388 - INFO - 127.0.0.1 - - [19/Jul/2024 13:40:27] "GET /generate-progress HTTP/1.1" 200 -
+2024-07-19 13:40:31,177 - INFO - 127.0.0.1 - - [19/Jul/2024 13:40:31] "POST /generate-image HTTP/1.1" 200 -
+2024-07-19 13:40:31,550 - INFO - 127.0.0.1 - - [19/Jul/2024 13:40:31] "GET /generate-progress HTTP/1.1" 200 -
+2024-07-19 13:40:32,155 - INFO - 127.0.0.1 - - [19/Jul/2024 13:40:32] "GET /generate-progress HTTP/1.1" 200 -
+2024-07-19 13:41:24,971 - INFO - 127.0.0.1 - - [19/Jul/2024 13:41:24] "GET /generate-progress HTTP/1.1" 200 -
+2024-07-19 13:41:25,284 - INFO - 127.0.0.1 - - [19/Jul/2024 13:41:25] "GET /generate-progress HTTP/1.1" 200 -
+2024-07-19 13:41:25,604 - INFO - 127.0.0.1 - - [19/Jul/2024 13:41:25] "GET /generate-progress HTTP/1.1" 200 -
+2024-07-19 13:41:25,918 - INFO - 127.0.0.1 - - [19/Jul/2024 13:41:25] "GET /generate-progress HTTP/1.1" 200 -
+2024-07-19 13:41:26,235 - INFO - 127.0.0.1 - - [19/Jul/2024 13:41:26] "GET /generate-progress HTTP/1.1" 200 -
+2024-07-19 13:41:26,551 - INFO - 127.0.0.1 - - [19/Jul/2024 13:41:26] "GET /generate-progress HTTP/1.1" 200 -
+2024-07-19 13:41:35,386 - INFO - 127.0.0.1 - - [19/Jul/2024 13:41:35] "POST /generate-image HTTP/1.1" 200 -
+2024-07-19 13:41:35,754 - INFO - 127.0.0.1 - - [19/Jul/2024 13:41:35] "POST /generate-image HTTP/1.1" 200 -
+2024-07-19 13:41:35,852 - INFO - 127.0.0.1 - - [19/Jul/2024 13:41:35] "GET /uploads/annotated_WhatsApp%20Image%202024-07-11%20at%2001.22.43_e56a204c.jpg?1721376695392 HTTP/1.1" 200 -
+2024-07-19 13:41:36,061 - INFO - 127.0.0.1 - - [19/Jul/2024 13:41:36] "POST /generate-image HTTP/1.1" 200 -
+2024-07-19 13:41:36,073 - INFO - 127.0.0.1 - - [19/Jul/2024 13:41:36] "GET /uploads/annotated_WhatsApp%20Image%202024-07-11%20at%2001.22.43_e56a204c.jpg?1721376696065 HTTP/1.1" 200 -
+2024-07-19 13:41:36,344 - INFO - 127.0.0.1 - - [19/Jul/2024 13:41:36] "POST /generate-image HTTP/1.1" 200 -
+2024-07-19 13:41:36,636 - INFO - 127.0.0.1 - - [19/Jul/2024 13:41:36] "POST /generate-image HTTP/1.1" 200 -
+2024-07-19 13:41:36,665 - INFO - 127.0.0.1 - - [19/Jul/2024 13:41:36] "GET /uploads/annotated_WhatsApp%20Image%202024-07-11%20at%2001.22.43_e56a204c.jpg?1721376696640 HTTP/1.1" 200 -
+2024-07-19 13:41:36,955 - INFO - 127.0.0.1 - - [19/Jul/2024 13:41:36] "POST /generate-image HTTP/1.1" 200 -
+2024-07-19 13:41:36,967 - INFO - 127.0.0.1 - - [19/Jul/2024 13:41:36] "GET /uploads/annotated_WhatsApp%20Image%202024-07-11%20at%2001.22.43_e56a204c.jpg?1721376696958 HTTP/1.1" 200 -
+2024-07-19 13:51:59,875 - INFO - Upload folder ensured at: C:\Users\krish\Documents\Project\FeatureRecall\impfiles\PycharmProjects\frfr\app\static\uploads
+2024-07-19 13:51:59,891 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-19 13:51:59,891 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-19 13:52:04,942 - INFO - Serving index.html
+2024-07-19 13:52:05,005 - INFO - 127.0.0.1 - - [19/Jul/2024 13:52:05] "GET / HTTP/1.1" 200 -
+2024-07-19 13:52:05,211 - INFO - 127.0.0.1 - - [19/Jul/2024 13:52:05] "[33mGET /static/css/main.b65ab766.css HTTP/1.1[0m" 404 -
+2024-07-19 13:52:05,430 - INFO - 127.0.0.1 - - [19/Jul/2024 13:52:05] "[33mGET /static/js/main.68c9ae18.js HTTP/1.1[0m" 404 -
+2024-07-19 13:52:05,431 - INFO - 127.0.0.1 - - [19/Jul/2024 13:52:05] "GET /static/css/main.648cf6e8.css HTTP/1.1" 200 -
+2024-07-19 13:52:05,434 - INFO - 127.0.0.1 - - [19/Jul/2024 13:52:05] "GET /static/js/main.ace00f00.js HTTP/1.1" 200 -
+2024-07-19 13:52:11,066 - INFO - Received upload request
+2024-07-19 13:52:11,074 - INFO - File saved to C:\Users\krish\Documents\Project\FeatureRecall\impfiles\PycharmProjects\frfr\app\static\uploads\WhatsApp Image 2024-07-11 at 01.22.43_e56a204c.jpg
+2024-07-19 13:52:11,080 - DEBUG - Starting new HTTP connection (1): localhost:5000
+2024-07-19 13:52:17,603 - INFO - 127.0.0.1 - - [19/Jul/2024 13:52:17] "GET /static/js/main.ace00f00.js.map HTTP/1.1" 200 -
+2024-07-19 13:52:17,679 - INFO - 127.0.0.1 - - [19/Jul/2024 13:52:17] "GET /static/css/main.648cf6e8.css.map HTTP/1.1" 200 -
+2024-07-19 13:52:19,430 - INFO - 127.0.0.1 - - [19/Jul/2024 13:52:19] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2024-07-19 13:52:21,560 - INFO - 127.0.0.1 - - [19/Jul/2024 13:52:21] "POST /process-image HTTP/1.1" 200 -
+2024-07-19 13:52:21,561 - DEBUG - http://localhost:5000 "POST /process-image HTTP/1.1" 200 67
+2024-07-19 13:52:21,564 - INFO - 127.0.0.1 - - [19/Jul/2024 13:52:21] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-07-19 13:52:22,902 - INFO - 127.0.0.1 - - [19/Jul/2024 13:52:22] "GET /process-progress HTTP/1.1" 200 -
+2024-07-19 13:52:23,190 - INFO - 127.0.0.1 - - [19/Jul/2024 13:52:23] "GET /fetch-annotations?csv_file_name=detections_WhatsApp+Image+2024-07-11+at+01.csv HTTP/1.1" 200 -
+2024-07-19 13:52:24,886 - INFO - 127.0.0.1 - - [19/Jul/2024 13:52:24] "POST /search HTTP/1.1" 200 -
+2024-07-19 13:52:25,361 - INFO - 127.0.0.1 - - [19/Jul/2024 13:52:25] "POST /generate-image HTTP/1.1" 200 -
+2024-07-19 13:52:26,387 - INFO - 127.0.0.1 - - [19/Jul/2024 13:52:26] "GET /generate-progress HTTP/1.1" 200 -
+2024-07-19 13:52:26,699 - INFO - 127.0.0.1 - - [19/Jul/2024 13:52:26] "GET /uploads/annotated_WhatsApp%20Image%202024-07-11%20at%2001.22.43_e56a204c.jpg?1721377346390 HTTP/1.1" 200 -
+2024-07-19 13:52:29,996 - INFO - 127.0.0.1 - - [19/Jul/2024 13:52:29] "POST /search HTTP/1.1" 200 -
+2024-07-19 13:52:30,357 - INFO - 127.0.0.1 - - [19/Jul/2024 13:52:30] "POST /generate-image HTTP/1.1" 200 -
+2024-07-19 13:52:31,372 - INFO - 127.0.0.1 - - [19/Jul/2024 13:52:31] "GET /generate-progress HTTP/1.1" 200 -
+2024-07-19 13:52:31,698 - INFO - 127.0.0.1 - - [19/Jul/2024 13:52:31] "GET /uploads/annotated_WhatsApp%20Image%202024-07-11%20at%2001.22.43_e56a204c.jpg?1721377351378 HTTP/1.1" 200 -
+2024-07-19 13:52:33,894 - INFO - 127.0.0.1 - - [19/Jul/2024 13:52:33] "POST /search HTTP/1.1" 200 -
+2024-07-19 13:52:34,366 - INFO - 127.0.0.1 - - [19/Jul/2024 13:52:34] "POST /generate-image HTTP/1.1" 200 -
+2024-07-19 13:52:34,777 - INFO - 127.0.0.1 - - [19/Jul/2024 13:52:34] "POST /search HTTP/1.1" 200 -
+2024-07-19 13:52:35,180 - INFO - 127.0.0.1 - - [19/Jul/2024 13:52:35] "POST /generate-image HTTP/1.1" 200 -
+2024-07-19 13:52:35,390 - INFO - 127.0.0.1 - - [19/Jul/2024 13:52:35] "GET /generate-progress HTTP/1.1" 200 -
+2024-07-19 13:52:35,705 - INFO - 127.0.0.1 - - [19/Jul/2024 13:52:35] "GET /uploads/annotated_WhatsApp%20Image%202024-07-11%20at%2001.22.43_e56a204c.jpg?1721377355395 HTTP/1.1" 200 -
+2024-07-19 13:52:36,199 - INFO - 127.0.0.1 - - [19/Jul/2024 13:52:36] "GET /generate-progress HTTP/1.1" 200 -
+2024-07-19 13:52:36,524 - INFO - 127.0.0.1 - - [19/Jul/2024 13:52:36] "GET /uploads/annotated_WhatsApp%20Image%202024-07-11%20at%2001.22.43_e56a204c.jpg?1721377356205 HTTP/1.1" 200 -
+2024-07-19 13:57:40,685 - INFO - Upload folder ensured at: C:\Users\krish\Documents\Project\FeatureRecall\impfiles\PycharmProjects\frfr\app\static\uploads
+2024-07-19 13:57:40,708 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-19 13:57:40,708 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-19 13:59:35,937 - INFO - Serving index.html
+2024-07-19 13:59:35,999 - INFO - 127.0.0.1 - - [19/Jul/2024 13:59:35] "GET / HTTP/1.1" 200 -
+2024-07-19 13:59:36,203 - INFO - 127.0.0.1 - - [19/Jul/2024 13:59:36] "[33mGET /static/css/main.b65ab766.css HTTP/1.1[0m" 404 -
+2024-07-19 13:59:36,390 - INFO - 127.0.0.1 - - [19/Jul/2024 13:59:36] "[33mGET /static/js/main.68c9ae18.js HTTP/1.1[0m" 404 -
+2024-07-19 13:59:36,392 - INFO - 127.0.0.1 - - [19/Jul/2024 13:59:36] "GET /static/css/main.648cf6e8.css HTTP/1.1" 200 -
+2024-07-19 13:59:36,394 - INFO - 127.0.0.1 - - [19/Jul/2024 13:59:36] "GET /static/js/main.ff92d274.js HTTP/1.1" 200 -
+2024-07-19 13:59:36,639 - INFO - 127.0.0.1 - - [19/Jul/2024 13:59:36] "GET /static/css/main.648cf6e8.css.map HTTP/1.1" 200 -
+2024-07-19 13:59:37,248 - INFO - 127.0.0.1 - - [19/Jul/2024 13:59:37] "GET /static/js/main.ff92d274.js.map HTTP/1.1" 200 -
+2024-07-19 13:59:37,513 - INFO - 127.0.0.1 - - [19/Jul/2024 13:59:37] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2024-07-19 13:59:40,174 - INFO - Received upload request
+2024-07-19 13:59:40,181 - INFO - File saved to C:\Users\krish\Documents\Project\FeatureRecall\impfiles\PycharmProjects\frfr\app\static\uploads\WhatsApp Image 2024-07-11 at 01.22.43_e56a204c.jpg
+2024-07-19 13:59:40,186 - DEBUG - Starting new HTTP connection (1): localhost:5000
+2024-07-19 13:59:46,907 - INFO - 127.0.0.1 - - [19/Jul/2024 13:59:46] "POST /process-image HTTP/1.1" 200 -
+2024-07-19 13:59:46,908 - DEBUG - http://localhost:5000 "POST /process-image HTTP/1.1" 200 67
+2024-07-19 13:59:46,910 - INFO - 127.0.0.1 - - [19/Jul/2024 13:59:46] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-07-19 13:59:49,212 - INFO - 127.0.0.1 - - [19/Jul/2024 13:59:49] "GET /process-progress HTTP/1.1" 200 -
+2024-07-19 13:59:49,489 - INFO - 127.0.0.1 - - [19/Jul/2024 13:59:49] "GET /process-progress HTTP/1.1" 200 -
+2024-07-19 13:59:49,531 - INFO - 127.0.0.1 - - [19/Jul/2024 13:59:49] "GET /fetch-annotations?csv_file_name=detections_WhatsApp+Image+2024-07-11+at+01.csv HTTP/1.1" 200 -
+2024-07-19 13:59:49,544 - INFO - 127.0.0.1 - - [19/Jul/2024 13:59:49] "GET /fetch-annotations?csv_file_name=detections_WhatsApp+Image+2024-07-11+at+01.csv HTTP/1.1" 200 -
+2024-07-19 13:59:50,993 - INFO - 127.0.0.1 - - [19/Jul/2024 13:59:50] "POST /search HTTP/1.1" 200 -
+2024-07-19 13:59:51,428 - INFO - 127.0.0.1 - - [19/Jul/2024 13:59:51] "POST /generate-image HTTP/1.1" 200 -
+2024-07-19 13:59:52,457 - INFO - 127.0.0.1 - - [19/Jul/2024 13:59:52] "GET /generate-progress HTTP/1.1" 200 -
+2024-07-19 13:59:52,779 - INFO - 127.0.0.1 - - [19/Jul/2024 13:59:52] "GET /uploads/annotated_WhatsApp%20Image%202024-07-11%20at%2001.22.43_e56a204c.jpg?1721377792461 HTTP/1.1" 200 -
+2024-07-19 14:07:51,318 - INFO - Upload folder ensured at: C:\Users\krish\Documents\Project\FeatureRecall\impfiles\PycharmProjects\frfr\app\static\uploads
+2024-07-19 14:07:51,343 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-19 14:07:51,343 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-19 14:08:07,693 - INFO - Serving index.html
+2024-07-19 14:08:07,740 - INFO - 127.0.0.1 - - [19/Jul/2024 14:08:07] "GET / HTTP/1.1" 200 -
+2024-07-19 14:08:07,942 - INFO - 127.0.0.1 - - [19/Jul/2024 14:08:07] "[33mGET /static/css/main.b65ab766.css HTTP/1.1[0m" 404 -
+2024-07-19 14:08:08,113 - INFO - 127.0.0.1 - - [19/Jul/2024 14:08:08] "[33mGET /static/js/main.68c9ae18.js HTTP/1.1[0m" 404 -
+2024-07-19 14:08:08,115 - INFO - 127.0.0.1 - - [19/Jul/2024 14:08:08] "GET /static/css/main.260c6783.css HTTP/1.1" 200 -
+2024-07-19 14:08:08,116 - INFO - 127.0.0.1 - - [19/Jul/2024 14:08:08] "GET /static/js/main.ff92d274.js HTTP/1.1" 200 -
+2024-07-19 14:08:08,476 - INFO - 127.0.0.1 - - [19/Jul/2024 14:08:08] "GET /static/css/main.260c6783.css.map HTTP/1.1" 200 -
+2024-07-19 14:08:08,789 - INFO - 127.0.0.1 - - [19/Jul/2024 14:08:08] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2024-07-19 14:08:08,994 - INFO - 127.0.0.1 - - [19/Jul/2024 14:08:08] "GET /static/js/main.ff92d274.js.map HTTP/1.1" 200 -
+2024-07-19 14:08:14,220 - INFO - Received upload request
+2024-07-19 14:08:14,225 - INFO - File saved to C:\Users\krish\Documents\Project\FeatureRecall\impfiles\PycharmProjects\frfr\app\static\uploads\WhatsApp Image 2024-07-11 at 01.22.43_e56a204c.jpg
+2024-07-19 14:08:14,229 - DEBUG - Starting new HTTP connection (1): localhost:5000
+2024-07-19 14:08:22,760 - INFO - 127.0.0.1 - - [19/Jul/2024 14:08:22] "POST /process-image HTTP/1.1" 200 -
+2024-07-19 14:08:22,761 - DEBUG - http://localhost:5000 "POST /process-image HTTP/1.1" 200 67
+2024-07-19 14:08:22,762 - INFO - 127.0.0.1 - - [19/Jul/2024 14:08:22] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-07-19 14:08:23,776 - INFO - 127.0.0.1 - - [19/Jul/2024 14:08:23] "GET /process-progress HTTP/1.1" 200 -
+2024-07-19 14:08:24,100 - INFO - 127.0.0.1 - - [19/Jul/2024 14:08:24] "GET /fetch-annotations?csv_file_name=detections_WhatsApp+Image+2024-07-11+at+01.csv HTTP/1.1" 200 -
+2024-07-19 14:08:25,879 - INFO - 127.0.0.1 - - [19/Jul/2024 14:08:25] "POST /search HTTP/1.1" 200 -
+2024-07-19 14:08:26,292 - INFO - 127.0.0.1 - - [19/Jul/2024 14:08:26] "POST /generate-image HTTP/1.1" 200 -
+2024-07-19 14:08:27,306 - INFO - 127.0.0.1 - - [19/Jul/2024 14:08:27] "GET /generate-progress HTTP/1.1" 200 -
+2024-07-19 14:08:27,628 - INFO - 127.0.0.1 - - [19/Jul/2024 14:08:27] "GET /uploads/annotated_WhatsApp%20Image%202024-07-11%20at%2001.22.43_e56a204c.jpg?1721378307311 HTTP/1.1" 200 -
+2024-07-19 14:32:36,698 - INFO - Upload folder ensured at: C:\Users\krish\Documents\Project\FeatureRecall\impfiles\PycharmProjects\frfr\app\static\uploads
+2024-07-19 14:32:36,718 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-19 14:32:36,719 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-19 14:33:11,800 - INFO - Serving index.html
+2024-07-19 14:33:11,932 - INFO - 127.0.0.1 - - [19/Jul/2024 14:33:11] "GET / HTTP/1.1" 200 -
+2024-07-19 14:33:12,054 - INFO - 127.0.0.1 - - [19/Jul/2024 14:33:12] "[33mGET /static/css/main.b65ab766.css HTTP/1.1[0m" 404 -
+2024-07-19 14:33:12,312 - INFO - 127.0.0.1 - - [19/Jul/2024 14:33:12] "GET /static/css/main.260c6783.css HTTP/1.1" 200 -
+2024-07-19 14:33:12,335 - INFO - 127.0.0.1 - - [19/Jul/2024 14:33:12] "GET /static/js/main.d6da5f01.js HTTP/1.1" 200 -
+2024-07-19 14:33:12,336 - INFO - 127.0.0.1 - - [19/Jul/2024 14:33:12] "[33mGET /static/js/main.68c9ae18.js HTTP/1.1[0m" 404 -
+2024-07-19 14:33:12,589 - INFO - 127.0.0.1 - - [19/Jul/2024 14:33:12] "GET /static/css/main.260c6783.css.map HTTP/1.1" 200 -
+2024-07-19 14:33:12,894 - INFO - 127.0.0.1 - - [19/Jul/2024 14:33:12] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2024-07-19 14:33:13,160 - INFO - 127.0.0.1 - - [19/Jul/2024 14:33:13] "GET /static/js/main.d6da5f01.js.map HTTP/1.1" 200 -
+2024-07-19 14:33:24,736 - INFO - Received upload request
+2024-07-19 14:33:24,743 - INFO - File saved to C:\Users\krish\Documents\Project\FeatureRecall\impfiles\PycharmProjects\frfr\app\static\uploads\WhatsApp Image 2024-07-11 at 01.22.43_e56a204c.jpg
+2024-07-19 14:33:24,747 - DEBUG - Starting new HTTP connection (1): localhost:5000
+2024-07-19 14:33:31,102 - INFO - 127.0.0.1 - - [19/Jul/2024 14:33:31] "POST /process-image HTTP/1.1" 200 -
+2024-07-19 14:33:31,104 - DEBUG - http://localhost:5000 "POST /process-image HTTP/1.1" 200 67
+2024-07-19 14:33:31,104 - INFO - 127.0.0.1 - - [19/Jul/2024 14:33:31] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-07-19 14:33:32,129 - INFO - 127.0.0.1 - - [19/Jul/2024 14:33:32] "GET /process-progress HTTP/1.1" 200 -
+2024-07-19 14:33:32,466 - INFO - 127.0.0.1 - - [19/Jul/2024 14:33:32] "GET /fetch-annotations?csv_file_name=detections_WhatsApp+Image+2024-07-11+at+01.csv HTTP/1.1" 200 -
+2024-07-19 14:33:51,942 - INFO - 127.0.0.1 - - [19/Jul/2024 14:33:51] "POST /search HTTP/1.1" 200 -
+2024-07-19 14:33:52,371 - INFO - 127.0.0.1 - - [19/Jul/2024 14:33:52] "POST /generate-image HTTP/1.1" 200 -
+2024-07-19 14:33:53,400 - INFO - 127.0.0.1 - - [19/Jul/2024 14:33:53] "GET /generate-progress HTTP/1.1" 200 -
+2024-07-19 14:33:53,726 - INFO - 127.0.0.1 - - [19/Jul/2024 14:33:53] "GET /uploads/annotated_WhatsApp%20Image%202024-07-11%20at%2001.22.43_e56a204c.jpg?1721379833405 HTTP/1.1" 200 -
+2024-07-19 14:38:31,786 - INFO - Upload folder ensured at: C:\Users\krish\Documents\Project\FeatureRecall\impfiles\PycharmProjects\frfr\app\static\uploads
+2024-07-19 14:38:31,802 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-19 14:38:31,802 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-19 14:39:03,381 - INFO - Serving index.html
+2024-07-19 14:39:03,459 - INFO - 127.0.0.1 - - [19/Jul/2024 14:39:03] "GET / HTTP/1.1" 200 -
+2024-07-19 14:39:03,650 - INFO - 127.0.0.1 - - [19/Jul/2024 14:39:03] "[33mGET /static/css/main.b65ab766.css HTTP/1.1[0m" 404 -
+2024-07-19 14:39:03,851 - INFO - 127.0.0.1 - - [19/Jul/2024 14:39:03] "[33mGET /static/js/main.68c9ae18.js HTTP/1.1[0m" 404 -
+2024-07-19 14:39:03,855 - INFO - 127.0.0.1 - - [19/Jul/2024 14:39:03] "GET /static/css/main.260c6783.css HTTP/1.1" 200 -
+2024-07-19 14:39:03,856 - INFO - 127.0.0.1 - - [19/Jul/2024 14:39:03] "GET /static/js/main.2dbc182a.js HTTP/1.1" 200 -
+2024-07-19 14:39:04,218 - INFO - 127.0.0.1 - - [19/Jul/2024 14:39:04] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2024-07-19 14:40:39,323 - INFO - Received upload request
+2024-07-19 14:40:39,329 - INFO - File saved to C:\Users\krish\Documents\Project\FeatureRecall\impfiles\PycharmProjects\frfr\app\static\uploads\WhatsApp Image 2024-07-11 at 01.22.43_e56a204c.jpg
+2024-07-19 14:40:39,334 - DEBUG - Starting new HTTP connection (1): localhost:5000
+2024-07-19 14:40:46,072 - INFO - 127.0.0.1 - - [19/Jul/2024 14:40:46] "POST /process-image HTTP/1.1" 200 -
+2024-07-19 14:40:46,072 - DEBUG - http://localhost:5000 "POST /process-image HTTP/1.1" 200 67
+2024-07-19 14:40:46,074 - INFO - 127.0.0.1 - - [19/Jul/2024 14:40:46] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-07-19 14:40:47,091 - INFO - 127.0.0.1 - - [19/Jul/2024 14:40:47] "GET /process-progress HTTP/1.1" 200 -
+2024-07-19 14:40:47,424 - INFO - 127.0.0.1 - - [19/Jul/2024 14:40:47] "GET /fetch-annotations?csv_file_name=detections_WhatsApp+Image+2024-07-11+at+01.csv HTTP/1.1" 200 -
+2024-07-19 14:40:50,137 - INFO - 127.0.0.1 - - [19/Jul/2024 14:40:50] "POST /search HTTP/1.1" 200 -
+2024-07-19 14:40:50,549 - INFO - 127.0.0.1 - - [19/Jul/2024 14:40:50] "POST /generate-image HTTP/1.1" 200 -
+2024-07-19 14:40:51,570 - INFO - 127.0.0.1 - - [19/Jul/2024 14:40:51] "GET /generate-progress HTTP/1.1" 200 -
+2024-07-19 14:40:51,895 - INFO - 127.0.0.1 - - [19/Jul/2024 14:40:51] "GET /uploads/annotated_WhatsApp%20Image%202024-07-11%20at%2001.22.43_e56a204c.jpg?1721380251577 HTTP/1.1" 200 -
+2024-07-19 14:52:06,125 - INFO - Upload folder ensured at: C:\Users\krish\Documents\Project\FeatureRecall\impfiles\PycharmProjects\frfr\app\static\uploads
+2024-07-19 14:52:06,144 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-19 14:52:06,144 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-19 14:52:09,440 - INFO - Serving index.html
+2024-07-19 14:52:09,638 - INFO - 127.0.0.1 - - [19/Jul/2024 14:52:09] "GET / HTTP/1.1" 200 -
+2024-07-19 14:52:09,739 - INFO - 127.0.0.1 - - [19/Jul/2024 14:52:09] "[33mGET /static/css/main.b65ab766.css HTTP/1.1[0m" 404 -
+2024-07-19 14:52:10,050 - INFO - 127.0.0.1 - - [19/Jul/2024 14:52:10] "GET /static/css/main.e63e32c1.css HTTP/1.1" 200 -
+2024-07-19 14:52:10,056 - INFO - 127.0.0.1 - - [19/Jul/2024 14:52:10] "[33mGET /static/js/main.68c9ae18.js HTTP/1.1[0m" 404 -
+2024-07-19 14:52:10,063 - INFO - 127.0.0.1 - - [19/Jul/2024 14:52:10] "GET /static/js/main.2dbc182a.js HTTP/1.1" 200 -
+2024-07-19 14:52:10,927 - INFO - 127.0.0.1 - - [19/Jul/2024 14:52:10] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2024-07-19 14:52:15,574 - INFO - Received upload request
+2024-07-19 14:52:15,579 - INFO - File saved to C:\Users\krish\Documents\Project\FeatureRecall\impfiles\PycharmProjects\frfr\app\static\uploads\WhatsApp Image 2024-07-11 at 01.22.43_e56a204c.jpg
+2024-07-19 14:52:15,584 - DEBUG - Starting new HTTP connection (1): localhost:5000
+2024-07-19 14:52:22,138 - INFO - 127.0.0.1 - - [19/Jul/2024 14:52:22] "POST /process-image HTTP/1.1" 200 -
+2024-07-19 14:52:22,139 - DEBUG - http://localhost:5000 "POST /process-image HTTP/1.1" 200 67
+2024-07-19 14:52:22,140 - INFO - 127.0.0.1 - - [19/Jul/2024 14:52:22] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-07-19 14:52:23,459 - INFO - 127.0.0.1 - - [19/Jul/2024 14:52:23] "GET /process-progress HTTP/1.1" 200 -
+2024-07-19 14:52:23,728 - INFO - 127.0.0.1 - - [19/Jul/2024 14:52:23] "GET /fetch-annotations?csv_file_name=detections_WhatsApp+Image+2024-07-11+at+01.csv HTTP/1.1" 200 -
+2024-07-19 14:52:27,188 - INFO - 127.0.0.1 - - [19/Jul/2024 14:52:27] "POST /search HTTP/1.1" 200 -
+2024-07-19 14:52:27,603 - INFO - 127.0.0.1 - - [19/Jul/2024 14:52:27] "POST /generate-image HTTP/1.1" 200 -
+2024-07-19 14:52:28,625 - INFO - 127.0.0.1 - - [19/Jul/2024 14:52:28] "GET /generate-progress HTTP/1.1" 200 -
+2024-07-19 14:52:28,956 - INFO - 127.0.0.1 - - [19/Jul/2024 14:52:28] "GET /uploads/annotated_WhatsApp%20Image%202024-07-11%20at%2001.22.43_e56a204c.jpg?1721380948630 HTTP/1.1" 200 -
+2024-07-19 15:24:04,490 - INFO - Upload folder ensured at: C:\Users\krish\Documents\Project\FeatureRecall\impfiles\PycharmProjects\frfr\app\static\uploads
+2024-07-19 15:24:04,509 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-19 15:24:04,509 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-19 15:24:07,961 - INFO - Serving index.html
+2024-07-19 15:24:08,112 - INFO - 127.0.0.1 - - [19/Jul/2024 15:24:08] "GET / HTTP/1.1" 200 -
+2024-07-19 15:24:08,220 - INFO - 127.0.0.1 - - [19/Jul/2024 15:24:08] "[33mGET /static/css/main.b65ab766.css HTTP/1.1[0m" 404 -
+2024-07-19 15:24:08,485 - INFO - 127.0.0.1 - - [19/Jul/2024 15:24:08] "GET /static/css/main.9133b857.css HTTP/1.1" 200 -
+2024-07-19 15:24:08,494 - INFO - 127.0.0.1 - - [19/Jul/2024 15:24:08] "[33mGET /static/js/main.68c9ae18.js HTTP/1.1[0m" 404 -
+2024-07-19 15:24:08,497 - INFO - 127.0.0.1 - - [19/Jul/2024 15:24:08] "GET /static/js/main.80b6a16d.js HTTP/1.1" 200 -
+2024-07-19 15:24:08,834 - INFO - 127.0.0.1 - - [19/Jul/2024 15:24:08] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2024-07-19 15:24:14,187 - INFO - Received upload request
+2024-07-19 15:24:14,194 - INFO - File saved to C:\Users\krish\Documents\Project\FeatureRecall\impfiles\PycharmProjects\frfr\app\static\uploads\WhatsApp Image 2024-07-11 at 01.22.43_e56a204c.jpg
+2024-07-19 15:24:14,199 - DEBUG - Starting new HTTP connection (1): localhost:5000
+2024-07-19 15:24:20,736 - INFO - 127.0.0.1 - - [19/Jul/2024 15:24:20] "POST /process-image HTTP/1.1" 200 -
+2024-07-19 15:24:20,737 - DEBUG - http://localhost:5000 "POST /process-image HTTP/1.1" 200 67
+2024-07-19 15:24:20,738 - INFO - 127.0.0.1 - - [19/Jul/2024 15:24:20] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-07-19 15:24:21,755 - INFO - 127.0.0.1 - - [19/Jul/2024 15:24:21] "GET /process-progress HTTP/1.1" 200 -
+2024-07-19 15:24:22,090 - INFO - 127.0.0.1 - - [19/Jul/2024 15:24:22] "GET /fetch-annotations?csv_file_name=detections_WhatsApp+Image+2024-07-11+at+01.csv HTTP/1.1" 200 -
+2024-07-19 15:24:23,342 - INFO - 127.0.0.1 - - [19/Jul/2024 15:24:23] "POST /search HTTP/1.1" 200 -
+2024-07-19 15:24:23,748 - INFO - 127.0.0.1 - - [19/Jul/2024 15:24:23] "POST /generate-image HTTP/1.1" 200 -
+2024-07-19 15:24:24,774 - INFO - 127.0.0.1 - - [19/Jul/2024 15:24:24] "GET /generate-progress HTTP/1.1" 200 -
+2024-07-19 15:24:25,096 - INFO - 127.0.0.1 - - [19/Jul/2024 15:24:25] "GET /uploads/annotated_WhatsApp%20Image%202024-07-11%20at%2001.22.43_e56a204c.jpg?1721382864780 HTTP/1.1" 200 -
+2024-07-19 15:25:45,827 - INFO - 127.0.0.1 - - [19/Jul/2024 15:25:45] "POST /search HTTP/1.1" 200 -
+2024-07-19 15:25:46,176 - INFO - 127.0.0.1 - - [19/Jul/2024 15:25:46] "POST /generate-image HTTP/1.1" 200 -
+2024-07-19 15:25:47,191 - INFO - 127.0.0.1 - - [19/Jul/2024 15:25:47] "GET /generate-progress HTTP/1.1" 200 -
+2024-07-19 15:25:47,519 - INFO - 127.0.0.1 - - [19/Jul/2024 15:25:47] "GET /uploads/annotated_WhatsApp%20Image%202024-07-11%20at%2001.22.43_e56a204c.jpg?1721382947196 HTTP/1.1" 200 -
+2024-07-19 15:25:50,688 - INFO - 127.0.0.1 - - [19/Jul/2024 15:25:50] "POST /search HTTP/1.1" 200 -
+2024-07-19 15:25:51,105 - INFO - 127.0.0.1 - - [19/Jul/2024 15:25:51] "POST /generate-image HTTP/1.1" 200 -
+2024-07-19 15:25:52,131 - INFO - 127.0.0.1 - - [19/Jul/2024 15:25:52] "GET /generate-progress HTTP/1.1" 200 -
+2024-07-19 15:25:52,454 - INFO - 127.0.0.1 - - [19/Jul/2024 15:25:52] "GET /uploads/annotated_WhatsApp%20Image%202024-07-11%20at%2001.22.43_e56a204c.jpg?1721382952136 HTTP/1.1" 200 -
+2024-07-19 15:25:55,772 - INFO - 127.0.0.1 - - [19/Jul/2024 15:25:55] "POST /search HTTP/1.1" 200 -
+2024-07-19 15:25:56,170 - INFO - 127.0.0.1 - - [19/Jul/2024 15:25:56] "POST /generate-image HTTP/1.1" 200 -
+2024-07-19 15:25:57,185 - INFO - 127.0.0.1 - - [19/Jul/2024 15:25:57] "GET /generate-progress HTTP/1.1" 200 -
+2024-07-19 15:25:57,515 - INFO - 127.0.0.1 - - [19/Jul/2024 15:25:57] "GET /uploads/annotated_WhatsApp%20Image%202024-07-11%20at%2001.22.43_e56a204c.jpg?1721382957193 HTTP/1.1" 200 -
+2024-07-19 15:38:30,645 - INFO - Upload folder ensured at: C:\Users\krish\Documents\Project\FeatureRecall\impfiles\PycharmProjects\frfr\app\static\uploads
+2024-07-19 15:38:30,667 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-19 15:38:30,667 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-19 15:41:09,897 - INFO - Serving index.html
+2024-07-19 15:41:10,062 - INFO - 127.0.0.1 - - [19/Jul/2024 15:41:10] "GET / HTTP/1.1" 200 -
+2024-07-19 15:41:10,186 - INFO - 127.0.0.1 - - [19/Jul/2024 15:41:10] "[33mGET /static/css/main.b65ab766.css HTTP/1.1[0m" 404 -
+2024-07-19 15:41:10,501 - INFO - 127.0.0.1 - - [19/Jul/2024 15:41:10] "[33mGET /static/js/main.68c9ae18.js HTTP/1.1[0m" 404 -
+2024-07-19 15:41:10,505 - INFO - 127.0.0.1 - - [19/Jul/2024 15:41:10] "GET /static/css/main.9133b857.css HTTP/1.1" 200 -
+2024-07-19 15:41:10,506 - INFO - 127.0.0.1 - - [19/Jul/2024 15:41:10] "GET /static/js/main.0e4a3e60.js HTTP/1.1" 200 -
+2024-07-19 15:41:11,173 - INFO - 127.0.0.1 - - [19/Jul/2024 15:41:11] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2024-07-19 15:41:18,365 - INFO - Received upload request
+2024-07-19 15:41:18,370 - INFO - File saved to C:\Users\krish\Documents\Project\FeatureRecall\impfiles\PycharmProjects\frfr\app\static\uploads\WhatsApp Image 2024-07-11 at 01.22.43_e56a204c.jpg
+2024-07-19 15:41:18,376 - DEBUG - Starting new HTTP connection (1): localhost:5000
+2024-07-19 15:41:24,898 - INFO - 127.0.0.1 - - [19/Jul/2024 15:41:24] "POST /process-image HTTP/1.1" 200 -
+2024-07-19 15:41:24,899 - DEBUG - http://localhost:5000 "POST /process-image HTTP/1.1" 200 67
+2024-07-19 15:41:24,899 - INFO - 127.0.0.1 - - [19/Jul/2024 15:41:24] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-07-19 15:41:25,230 - INFO - 127.0.0.1 - - [19/Jul/2024 15:41:25] "GET /fetch-annotations?csv_file_name=detections_WhatsApp+Image+2024-07-11+at+01.csv HTTP/1.1" 200 -
+2024-07-19 15:44:18,254 - INFO - 127.0.0.1 - - [19/Jul/2024 15:44:18] "POST /search HTTP/1.1" 200 -
+2024-07-19 15:44:18,622 - INFO - 127.0.0.1 - - [19/Jul/2024 15:44:18] "POST /generate-image HTTP/1.1" 200 -
+2024-07-19 15:44:18,636 - INFO - 127.0.0.1 - - [19/Jul/2024 15:44:18] "GET /uploads/annotated_WhatsApp%20Image%202024-07-11%20at%2001.22.43_e56a204c.jpg?1721384058627 HTTP/1.1" 200 -

@@ -1,0 +1,123 @@
+2024-07-20 22:35:01,256 - INFO - Received upload request
+2024-07-20 22:35:01,261 - INFO - File saved to C:\Users\krish\Documents\Project\FeatureRecall\impfiles\PycharmProjects\frfr\app\static\uploads\WhatsApp Image 2024-07-11 at 01.22.43_e56a204c.jpg
+2024-07-20 22:35:01,266 - DEBUG - Starting new HTTP connection (1): localhost:5000
+2024-07-20 22:35:17,390 - INFO - 127.0.0.1 - - [20/Jul/2024 22:35:17] "POST /process-image HTTP/1.1" 200 -
+2024-07-20 22:35:17,391 - DEBUG - http://localhost:5000 "POST /process-image HTTP/1.1" 200 67
+2024-07-20 22:35:17,393 - INFO - 127.0.0.1 - - [20/Jul/2024 22:35:17] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-07-20 22:35:17,726 - INFO - 127.0.0.1 - - [20/Jul/2024 22:35:17] "GET /fetch-annotations?csv_file_name=detections_WhatsApp+Image+2024-07-11+at+01.csv HTTP/1.1" 200 -
+2024-07-20 22:35:18,860 - INFO - 127.0.0.1 - - [20/Jul/2024 22:35:18] "POST /search HTTP/1.1" 200 -
+2024-07-20 22:35:19,294 - INFO - 127.0.0.1 - - [20/Jul/2024 22:35:19] "POST /generate-image HTTP/1.1" 200 -
+2024-07-20 22:35:19,443 - INFO - 127.0.0.1 - - [20/Jul/2024 22:35:19] "GET /uploads/annotated_WhatsApp%20Image%202024-07-11%20at%2001.22.43_e56a204c.jpg?1721495119298 HTTP/1.1" 200 -
+2024-07-20 22:35:21,338 - INFO - 127.0.0.1 - - [20/Jul/2024 22:35:21] "POST /search HTTP/1.1" 200 -
+2024-07-20 22:35:21,772 - INFO - 127.0.0.1 - - [20/Jul/2024 22:35:21] "POST /generate-image HTTP/1.1" 200 -
+2024-07-20 22:35:21,923 - INFO - 127.0.0.1 - - [20/Jul/2024 22:35:21] "GET /uploads/annotated_WhatsApp%20Image%202024-07-11%20at%2001.22.43_e56a204c.jpg?1721495121775 HTTP/1.1" 200 -
+2024-07-20 22:35:33,009 - INFO - Received upload request
+2024-07-20 22:35:33,051 - INFO - File saved to C:\Users\krish\Documents\Project\FeatureRecall\impfiles\PycharmProjects\frfr\app\static\uploads\20240712_101156.mp4
+2024-07-20 22:35:33,053 - DEBUG - Starting new HTTP connection (1): localhost:5000
+2024-07-20 22:45:41,270 - INFO - 127.0.0.1 - - [20/Jul/2024 22:45:41] "POST /process-video HTTP/1.1" 200 -
+2024-07-20 22:45:41,272 - DEBUG - http://localhost:5000 "POST /process-video HTTP/1.1" 200 51
+2024-07-20 22:45:41,276 - INFO - 127.0.0.1 - - [20/Jul/2024 22:45:41] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-07-20 22:45:41,620 - INFO - 127.0.0.1 - - [20/Jul/2024 22:45:41] "GET /fetch-annotations?csv_file_name=detections_20240712_101156.csv HTTP/1.1" 200 -
+2024-07-20 22:46:00,440 - INFO - 127.0.0.1 - - [20/Jul/2024 22:46:00] "POST /search HTTP/1.1" 200 -
+2024-07-20 22:46:00,773 - INFO - 127.0.0.1 - - [20/Jul/2024 22:46:00] "[31m[1mPOST /generate-video HTTP/1.1[0m" 400 -
+2024-07-20 22:46:04,834 - INFO - 127.0.0.1 - - [20/Jul/2024 22:46:04] "POST /search HTTP/1.1" 200 -
+2024-07-20 22:46:05,158 - INFO - 127.0.0.1 - - [20/Jul/2024 22:46:05] "[31m[1mPOST /generate-video HTTP/1.1[0m" 400 -
+2024-07-20 22:46:06,105 - INFO - 127.0.0.1 - - [20/Jul/2024 22:46:06] "POST /search HTTP/1.1" 200 -
+2024-07-20 22:46:06,436 - INFO - 127.0.0.1 - - [20/Jul/2024 22:46:06] "[31m[1mPOST /generate-video HTTP/1.1[0m" 400 -
+2024-07-20 22:47:11,967 - INFO - 127.0.0.1 - - [20/Jul/2024 22:47:11] "POST /generate-image HTTP/1.1" 200 -
+2024-07-20 22:51:13,218 - INFO - 127.0.0.1 - - [20/Jul/2024 22:51:13] "POST /search HTTP/1.1" 200 -
+2024-07-20 22:51:13,475 - INFO - 127.0.0.1 - - [20/Jul/2024 22:51:13] "[31m[1mPOST /generate-video HTTP/1.1[0m" 400 -
+2024-07-20 22:51:52,819 - INFO - 127.0.0.1 - - [20/Jul/2024 22:51:52] "POST /search HTTP/1.1" 200 -
+2024-07-20 22:51:53,165 - INFO - 127.0.0.1 - - [20/Jul/2024 22:51:53] "[31m[1mPOST /generate-video HTTP/1.1[0m" 400 -
+2024-07-20 22:53:41,401 - INFO - Upload folder ensured at: C:\Users\krish\Documents\Project\FeatureRecall\impfiles\PycharmProjects\frfr\app\static\uploads
+2024-07-20 22:53:42,201 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-20 22:53:42,202 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-20 22:53:44,366 - INFO - 127.0.0.1 - - [20/Jul/2024 22:53:44] "POST /search HTTP/1.1" 200 -
+2024-07-20 22:53:44,604 - INFO - 127.0.0.1 - - [20/Jul/2024 22:53:44] "[31m[1mPOST /generate-video HTTP/1.1[0m" 400 -
+2024-07-20 22:53:47,293 - INFO - 127.0.0.1 - - [20/Jul/2024 22:53:47] "POST /search HTTP/1.1" 200 -
+2024-07-20 22:53:47,621 - INFO - 127.0.0.1 - - [20/Jul/2024 22:53:47] "[31m[1mPOST /generate-video HTTP/1.1[0m" 400 -
+2024-07-20 22:53:51,414 - INFO - Serving index.html
+2024-07-20 22:53:51,555 - INFO - 127.0.0.1 - - [20/Jul/2024 22:53:51] "GET / HTTP/1.1" 200 -
+2024-07-20 22:53:51,988 - INFO - 127.0.0.1 - - [20/Jul/2024 22:53:51] "[33mGET /static/css/main.b65ab766.css HTTP/1.1[0m" 404 -
+2024-07-20 22:53:51,991 - INFO - 127.0.0.1 - - [20/Jul/2024 22:53:51] "GET /static/css/main.9133b857.css HTTP/1.1" 200 -
+2024-07-20 22:53:51,992 - INFO - 127.0.0.1 - - [20/Jul/2024 22:53:51] "[33mGET /static/js/main.68c9ae18.js HTTP/1.1[0m" 404 -
+2024-07-20 22:53:51,998 - INFO - 127.0.0.1 - - [20/Jul/2024 22:53:51] "GET /static/js/main.b8c13b1f.js HTTP/1.1" 200 -
+2024-07-20 22:53:52,255 - INFO - 127.0.0.1 - - [20/Jul/2024 22:53:52] "GET /static/css/main.9133b857.css.map HTTP/1.1" 200 -
+2024-07-20 22:53:52,333 - INFO - 127.0.0.1 - - [20/Jul/2024 22:53:52] "GET /static/js/main.b8c13b1f.js.map HTTP/1.1" 200 -
+2024-07-20 22:53:52,585 - INFO - 127.0.0.1 - - [20/Jul/2024 22:53:52] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2024-07-20 22:55:20,768 - INFO - Received upload request
+2024-07-20 22:55:20,790 - INFO - File saved to C:\Users\krish\Documents\Project\FeatureRecall\impfiles\PycharmProjects\frfr\app\static\uploads\20240712_101156 (online-video-cutter.com).mp4
+2024-07-20 22:55:20,796 - DEBUG - Starting new HTTP connection (1): localhost:5000
+2024-07-20 23:00:05,592 - INFO - 127.0.0.1 - - [20/Jul/2024 23:00:05] "POST /process-video HTTP/1.1" 200 -
+2024-07-20 23:00:05,593 - DEBUG - http://localhost:5000 "POST /process-video HTTP/1.1" 200 72
+2024-07-20 23:00:05,597 - INFO - 127.0.0.1 - - [20/Jul/2024 23:00:05] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-07-20 23:00:05,938 - INFO - 127.0.0.1 - - [20/Jul/2024 23:00:05] "GET /fetch-annotations?csv_file_name=detections_20240712_101156+(online-video-cutter.csv HTTP/1.1" 200 -
+2024-07-20 23:00:11,041 - INFO - 127.0.0.1 - - [20/Jul/2024 23:00:11] "POST /search HTTP/1.1" 200 -
+2024-07-20 23:00:13,114 - INFO - 127.0.0.1 - - [20/Jul/2024 23:00:13] "POST /generate-video HTTP/1.1" 200 -
+2024-07-20 23:00:13,136 - INFO - 127.0.0.1 - - [20/Jul/2024 23:00:13] "[35m[1mGET /uploads/annotated_20240712_101156%20(online-video-cutter.com).mp4?1721496613120 HTTP/1.1[0m" 206 -
+2024-07-20 23:00:13,457 - INFO - 127.0.0.1 - - [20/Jul/2024 23:00:13] "[35m[1mGET /uploads/annotated_20240712_101156%20(online-video-cutter.com).mp4?1721496613120 HTTP/1.1[0m" 206 -
+2024-07-20 23:02:36,899 - INFO - Received upload request
+2024-07-20 23:02:36,905 - INFO - File saved to C:\Users\krish\Documents\Project\FeatureRecall\impfiles\PycharmProjects\frfr\app\static\uploads\WhatsApp Image 2024-07-11 at 01.22.43_e56a204c.jpg
+2024-07-20 23:02:36,907 - DEBUG - Starting new HTTP connection (1): localhost:5000
+2024-07-20 23:02:54,238 - INFO - 127.0.0.1 - - [20/Jul/2024 23:02:54] "POST /process-image HTTP/1.1" 200 -
+2024-07-20 23:02:54,239 - DEBUG - http://localhost:5000 "POST /process-image HTTP/1.1" 200 67
+2024-07-20 23:02:54,241 - INFO - 127.0.0.1 - - [20/Jul/2024 23:02:54] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-07-20 23:02:54,265 - INFO - 127.0.0.1 - - [20/Jul/2024 23:02:54] "GET /fetch-annotations?csv_file_name=detections_WhatsApp+Image+2024-07-11+at+01.csv HTTP/1.1" 200 -
+2024-07-20 23:03:12,448 - INFO - 127.0.0.1 - - [20/Jul/2024 23:03:12] "POST /search HTTP/1.1" 200 -
+2024-07-20 23:03:12,831 - INFO - 127.0.0.1 - - [20/Jul/2024 23:03:12] "POST /generate-image HTTP/1.1" 200 -
+2024-07-20 23:03:12,846 - INFO - 127.0.0.1 - - [20/Jul/2024 23:03:12] "GET /uploads/annotated_WhatsApp%20Image%202024-07-11%20at%2001.22.43_e56a204c.jpg?1721496792836 HTTP/1.1" 200 -
+2024-07-20 23:07:01,176 - INFO - Upload folder ensured at: C:\Users\krish\Documents\Project\FeatureRecall\impfiles\PycharmProjects\frfr\app\static\uploads
+2024-07-20 23:07:01,685 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-20 23:07:01,685 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-20 23:07:51,418 - INFO - Received upload request
+2024-07-20 23:07:51,478 - INFO - File saved to C:\Users\krish\Documents\Project\FeatureRecall\impfiles\PycharmProjects\frfr\app\static\uploads\20240712_101156.mp4
+2024-07-20 23:07:51,484 - DEBUG - Starting new HTTP connection (1): localhost:5000
+2024-07-20 23:14:25,415 - INFO - 127.0.0.1 - - [20/Jul/2024 23:14:25] "POST /process-video HTTP/1.1" 200 -
+2024-07-20 23:14:25,416 - DEBUG - http://localhost:5000 "POST /process-video HTTP/1.1" 200 51
+2024-07-20 23:14:25,419 - INFO - 127.0.0.1 - - [20/Jul/2024 23:14:25] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-07-20 23:14:25,749 - INFO - 127.0.0.1 - - [20/Jul/2024 23:14:25] "GET /fetch-annotations?csv_file_name=detections_20240712_101156.csv HTTP/1.1" 200 -
+2024-07-20 23:16:19,296 - INFO - 127.0.0.1 - - [20/Jul/2024 23:16:19] "POST /search HTTP/1.1" 200 -
+2024-07-20 23:16:25,392 - INFO - 127.0.0.1 - - [20/Jul/2024 23:16:25] "POST /generate-video HTTP/1.1" 200 -
+2024-07-20 23:16:25,815 - INFO - 127.0.0.1 - - [20/Jul/2024 23:16:25] "[35m[1mGET /uploads/annotated_20240712_101156.mp4?1721497585410 HTTP/1.1[0m" 206 -
+2024-07-20 23:16:26,149 - INFO - 127.0.0.1 - - [20/Jul/2024 23:16:26] "[35m[1mGET /uploads/annotated_20240712_101156.mp4?1721497585410 HTTP/1.1[0m" 206 -
+2024-07-20 23:16:26,410 - INFO - 127.0.0.1 - - [20/Jul/2024 23:16:26] "[35m[1mGET /uploads/annotated_20240712_101156.mp4?1721497585410 HTTP/1.1[0m" 206 -
+2024-07-20 23:16:26,471 - INFO - 127.0.0.1 - - [20/Jul/2024 23:16:26] "[35m[1mGET /uploads/annotated_20240712_101156.mp4?1721497585410 HTTP/1.1[0m" 206 -
+2024-07-20 23:16:38,412 - INFO - 127.0.0.1 - - [20/Jul/2024 23:16:38] "POST /search HTTP/1.1" 200 -
+2024-07-20 23:16:43,075 - INFO - 127.0.0.1 - - [20/Jul/2024 23:16:43] "POST /generate-video HTTP/1.1" 200 -
+2024-07-20 23:16:43,096 - INFO - 127.0.0.1 - - [20/Jul/2024 23:16:43] "[35m[1mGET /uploads/annotated_20240712_101156.mp4?1721497603083 HTTP/1.1[0m" 206 -
+2024-07-20 23:16:43,432 - INFO - 127.0.0.1 - - [20/Jul/2024 23:16:43] "[35m[1mGET /uploads/annotated_20240712_101156.mp4?1721497603083 HTTP/1.1[0m" 206 -
+2024-07-20 23:16:43,683 - INFO - 127.0.0.1 - - [20/Jul/2024 23:16:43] "[35m[1mGET /uploads/annotated_20240712_101156.mp4?1721497603083 HTTP/1.1[0m" 206 -
+2024-07-20 23:16:43,761 - INFO - 127.0.0.1 - - [20/Jul/2024 23:16:43] "[35m[1mGET /uploads/annotated_20240712_101156.mp4?1721497603083 HTTP/1.1[0m" 206 -
+2024-07-20 23:17:16,162 - INFO - 127.0.0.1 - - [20/Jul/2024 23:17:16] "POST /search HTTP/1.1" 200 -
+2024-07-20 23:17:19,204 - INFO - 127.0.0.1 - - [20/Jul/2024 23:17:19] "POST /generate-video HTTP/1.1" 200 -
+2024-07-20 23:17:19,233 - INFO - 127.0.0.1 - - [20/Jul/2024 23:17:19] "[35m[1mGET /uploads/annotated_20240712_101156.mp4?1721497639212 HTTP/1.1[0m" 206 -
+2024-07-20 23:17:19,560 - INFO - 127.0.0.1 - - [20/Jul/2024 23:17:19] "[35m[1mGET /uploads/annotated_20240712_101156.mp4?1721497639212 HTTP/1.1[0m" 206 -
+2024-07-20 23:17:19,825 - INFO - 127.0.0.1 - - [20/Jul/2024 23:17:19] "[35m[1mGET /uploads/annotated_20240712_101156.mp4?1721497639212 HTTP/1.1[0m" 206 -
+2024-07-20 23:17:19,901 - INFO - 127.0.0.1 - - [20/Jul/2024 23:17:19] "[35m[1mGET /uploads/annotated_20240712_101156.mp4?1721497639212 HTTP/1.1[0m" 206 -
+2024-07-20 23:17:28,707 - INFO - 127.0.0.1 - - [20/Jul/2024 23:17:28] "POST /search HTTP/1.1" 200 -
+2024-07-20 23:17:32,121 - INFO - 127.0.0.1 - - [20/Jul/2024 23:17:32] "POST /generate-video HTTP/1.1" 200 -
+2024-07-20 23:17:32,176 - INFO - 127.0.0.1 - - [20/Jul/2024 23:17:32] "[35m[1mGET /uploads/annotated_20240712_101156.mp4?1721497652127 HTTP/1.1[0m" 206 -
+2024-07-20 23:17:32,528 - INFO - 127.0.0.1 - - [20/Jul/2024 23:17:32] "[35m[1mGET /uploads/annotated_20240712_101156.mp4?1721497652127 HTTP/1.1[0m" 206 -
+2024-07-20 23:17:32,792 - INFO - 127.0.0.1 - - [20/Jul/2024 23:17:32] "[35m[1mGET /uploads/annotated_20240712_101156.mp4?1721497652127 HTTP/1.1[0m" 206 -
+2024-07-20 23:17:32,883 - INFO - 127.0.0.1 - - [20/Jul/2024 23:17:32] "[35m[1mGET /uploads/annotated_20240712_101156.mp4?1721497652127 HTTP/1.1[0m" 206 -
+2024-07-20 23:17:47,883 - INFO - Received upload request
+2024-07-20 23:17:47,886 - INFO - File saved to C:\Users\krish\Documents\Project\FeatureRecall\impfiles\PycharmProjects\frfr\app\static\uploads\WhatsApp Image 2024-06-30 at 03.19.22_8593e783.jpg
+2024-07-20 23:17:47,887 - DEBUG - Starting new HTTP connection (1): localhost:5000
+2024-07-20 23:17:55,211 - INFO - 127.0.0.1 - - [20/Jul/2024 23:17:55] "POST /process-image HTTP/1.1" 200 -
+2024-07-20 23:17:55,214 - DEBUG - http://localhost:5000 "POST /process-image HTTP/1.1" 200 67
+2024-07-20 23:17:55,219 - INFO - 127.0.0.1 - - [20/Jul/2024 23:17:55] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-07-20 23:17:55,556 - INFO - 127.0.0.1 - - [20/Jul/2024 23:17:55] "GET /fetch-annotations?csv_file_name=detections_WhatsApp+Image+2024-06-30+at+03.csv HTTP/1.1" 200 -
+2024-07-20 23:17:57,162 - INFO - 127.0.0.1 - - [20/Jul/2024 23:17:57] "POST /search HTTP/1.1" 200 -
+2024-07-20 23:17:57,531 - INFO - 127.0.0.1 - - [20/Jul/2024 23:17:57] "POST /generate-image HTTP/1.1" 200 -
+2024-07-20 23:17:57,753 - INFO - 127.0.0.1 - - [20/Jul/2024 23:17:57] "GET /uploads/annotated_WhatsApp%20Image%202024-06-30%20at%2003.19.22_8593e783.jpg?1721497677537 HTTP/1.1" 200 -
+2024-07-20 23:18:02,186 - INFO - 127.0.0.1 - - [20/Jul/2024 23:18:02] "POST /search HTTP/1.1" 200 -
+2024-07-20 23:18:02,526 - INFO - 127.0.0.1 - - [20/Jul/2024 23:18:02] "POST /generate-image HTTP/1.1" 200 -
+2024-07-20 23:18:02,771 - INFO - 127.0.0.1 - - [20/Jul/2024 23:18:02] "GET /uploads/annotated_WhatsApp%20Image%202024-06-30%20at%2003.19.22_8593e783.jpg?1721497682530 HTTP/1.1" 200 -
+2024-07-20 23:18:04,447 - INFO - 127.0.0.1 - - [20/Jul/2024 23:18:04] "POST /search HTTP/1.1" 200 -
+2024-07-20 23:18:04,795 - INFO - 127.0.0.1 - - [20/Jul/2024 23:18:04] "POST /generate-image HTTP/1.1" 200 -
+2024-07-20 23:18:05,031 - INFO - 127.0.0.1 - - [20/Jul/2024 23:18:05] "GET /uploads/annotated_WhatsApp%20Image%202024-06-30%20at%2003.19.22_8593e783.jpg?1721497684798 HTTP/1.1" 200 -
+2024-07-20 23:18:06,457 - INFO - 127.0.0.1 - - [20/Jul/2024 23:18:06] "POST /search HTTP/1.1" 200 -
+2024-07-20 23:18:06,847 - INFO - 127.0.0.1 - - [20/Jul/2024 23:18:06] "POST /generate-image HTTP/1.1" 200 -
+2024-07-20 23:18:07,043 - INFO - 127.0.0.1 - - [20/Jul/2024 23:18:07] "GET /uploads/annotated_WhatsApp%20Image%202024-06-30%20at%2003.19.22_8593e783.jpg?1721497686857 HTTP/1.1" 200 -

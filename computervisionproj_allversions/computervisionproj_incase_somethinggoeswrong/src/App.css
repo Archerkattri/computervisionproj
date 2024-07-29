@@ -1,0 +1,111 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow: auto; /* Enable scrolling for the entire page */
+}
+
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  min-height: 100%; /* Ensure the App component takes full height */
+  padding-bottom: 20px; /* Ensure space for scrolling */
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+progress {
+  width: 100%;
+  margin: 20px 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
+
+.video {
+  max-width: 100%;
+  margin: 20px 0;
+}
+
+.preview {
+  max-width: 100%;
+  max-height: 400px;
+  margin: 10px 0;
+}
+
+.media-container {
+  display: flex;
+  justify-content: space-around; /* Align media boxes side by side */
+  flex-wrap: wrap; /* Allow wrapping for responsiveness */
+  margin-top: 20px;
+}
+
+.media-box {
+  width: 45%; /* Adjusted width for side by side layout */
+  margin: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  padding: 10px;
+  border-radius: 5px; /* Rounded corners */
+  background-color: #fff; /* Background for media boxes */
+}
+
+.media-box h2 {
+  margin-bottom: 10px;
+}
+
+.placeholder {
+  border: 2px dashed #ccc;
+  padding: 50px;
+  text-align: center; /* Center text inside placeholder */
+}
+
+/* New styles for search bar and suggestions */
+.search-container {
+  margin: 20px 0;
+  position: relative; /* For absolute positioning of suggestions */
+}
+
+.search-bar {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px; /* Rounded corners */
+}
+
+.suggestions {
+  list-style-type: none;
+  padding: 0;
+  margin: 5px 0 0; /* Move margin to only the top */
+  border: 1px solid #ccc;
+  max-height: 150px; /* Limit height for suggestions */
+  overflow-y: auto; /* Enable scrolling for suggestions */
+  background-color: #fff;
+  position: absolute; /* Position suggestions */
+  z-index: 10; /* Ensure it appears above other elements */
+  width: calc(100% - 2px); /* Align suggestions with search bar, accounting for border */
+  top: 100%; /* Position directly below the search bar */
+}
+
+.suggestion-item {
+  padding: 10px;
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.suggestion-item:hover {
+  background-color: #f0f0f0; /* Highlight on hover */
+}
+
+/* New styles for the ready message */
+.ready-message {
+  color: green; /* Change color as needed */
+  font-weight: bold;
+  margin: 10px 0; /* Add some margin */
+}

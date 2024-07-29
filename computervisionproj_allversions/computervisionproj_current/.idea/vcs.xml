@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/model_dir/image/ssd_pytorch" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/model_dir/image/yolov10" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/model_dir/image/yolov5" vcs="Git" />
+  </component>
+</project>
