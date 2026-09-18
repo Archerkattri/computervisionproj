@@ -1,0 +1,51 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/computervisionproj_allversions/computervisionproj_current"
+    schedule:
+      interval: "weekly"
+    groups:
+      security:
+        applies-to: "security-updates"
+  - package-ecosystem: "npm"
+    directory: "/computervisionproj_allversions/computervisionproj_customphoto"
+    schedule:
+      interval: "weekly"
+    groups:
+      security:
+        applies-to: "security-updates"
+  - package-ecosystem: "npm"
+    directory: "/computervisionproj_allversions/computervisionproj_customvideo"
+    schedule:
+      interval: "weekly"
+    groups:
+      security:
+        applies-to: "security-updates"
+  - package-ecosystem: "npm"
+    directory: "/computervisionproj_allversions/computervisionproj_incase_somethinggoeswrong"
+    schedule:
+      interval: "weekly"
+    groups:
+      security:
+        applies-to: "security-updates"
+  - package-ecosystem: "npm"
+    directory: "/computervisionproj_allversions/computervisionproj_photo_noscreencover"
+    schedule:
+      interval: "weekly"
+    groups:
+      security:
+        applies-to: "security-updates"
+  - package-ecosystem: "npm"
+    directory: "/computervisionproj_allversions/computervisionproj_photo_scrollandborder"
+    schedule:
+      interval: "weekly"
+    groups:
+      security:
+        applies-to: "security-updates"
+  - package-ecosystem: "npm"
+    directory: "/computervisionproj_allversions/computervisionproj_video"
+    schedule:
+      interval: "weekly"
+    groups:
+      security:
+        applies-to: "security-updates"
