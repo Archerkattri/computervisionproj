@@ -11,5 +11,6 @@ def init_app(app):
                 file_path = os.path.join(upload_folder, filename)
                 os.remove(file_path)
             return jsonify({'message': 'All files cleared.'}), 200
-        except Exception as e:
-            return jsonify({'error': f'Failed to clear files: {str(e)}'}), 500
+        except Exception:
+            app.logger.exception('Failed to clear files')
+            return jsonify({'error': 'Failed to clear files'}), 500

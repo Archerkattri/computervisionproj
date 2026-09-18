@@ -5,7 +5,7 @@ import cv2
 import torch
 import torchvision.models as models
 from torchvision.transforms import functional as F
-from werkzeug.utils import secure_filename
+from werkzeug.utils import secure_filename, safe_join
 from pycocotools.coco import COCO
 import shutil
 import time
@@ -96,14 +96,18 @@ def clear():
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
 def serve(path):
-    if path != "" and os.path.exists(os.path.join(app.static_folder, path)):
-        return send_from_directory(app.static_folder, path)
-    else:
-        return send_from_directory(app.static_folder, 'index.html')
+    if path != "":
+        try:
+            safe_path = safe_join(app.static_folder, path)
+        except Exception:
+            safe_path = None
+        if safe_path is not None and os.path.exists(safe_path):
+            return send_from_directory(app.static_folder, path)
+    return send_from_directory(app.static_folder, 'index.html')
 
 @app.route('/static/images/<path:filename>')
 def serve_images(filename):
     return send_from_directory(image_upload_folder, filename)
 
 if __name__ == '__main__':
-    socketio.run(app, debug=True)
+    socketio.run(app, debug=os.environ.get('FLASK_DEBUG') == '1')

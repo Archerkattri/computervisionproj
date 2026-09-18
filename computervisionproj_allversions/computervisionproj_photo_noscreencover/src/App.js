@@ -2,6 +2,9 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
 
+// Only blob: URLs created locally via URL.createObjectURL() may be rendered as media previews.
+const isPreviewUrl = (url) => typeof url === 'string' && url.startsWith('blob:');
+
 function App() {
   const [file, setFile] = useState(null);
   const [originalImage, setOriginalImage] = useState(null);
@@ -57,7 +60,7 @@ function App() {
         <button onClick={handleUpload} disabled={!file}>Upload and Process</button>
         <button onClick={handleClear}>Clear</button>
         {uploadProgress > 0 && <p>Upload Progress: {uploadProgress}%</p>}
-        {originalImage && <img src={originalImage} alt="Original" className="preview" />}
+        {originalImage && <img src={isPreviewUrl(originalImage) ? originalImage : undefined} alt="Original" className="preview" />}
         {annotatedImage && <img src={annotatedImage} alt="Annotated" className="preview" />}
       </header>
     </div>

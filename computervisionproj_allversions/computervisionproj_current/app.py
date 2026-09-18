@@ -1,11 +1,12 @@
 from flask import Flask, request, jsonify, send_from_directory
 from flask_socketio import SocketIO
+import ast
 import os
 import cv2
 import torch
 import torchvision.models as models
 from torchvision.transforms import functional as F
-from werkzeug.utils import secure_filename
+from werkzeug.utils import secure_filename, safe_join
 from pycocotools.coco import COCO
 import pandas as pd
 import numpy as np
@@ -163,6 +164,7 @@ def search_annotation():
 
     print(f"Searching for '{query}' in {filename}")
 
+    filename = secure_filename(filename or '')
     if filename not in temp_feature_data:
         return jsonify({'error': 'File not processed or data not available.'})
 
@@ -185,7 +187,7 @@ def search_annotation():
 
         # Print the box data for matched labels
         for index, row in matched_boxes.iterrows():
-            print(f"Matched label: {row['label']}, Box data: {eval(row['box'])}")
+            print(f"Matched label: {row['label']}, Box data: {ast.literal_eval(row['box'])}")
 
         # Annotate the image or video
         is_video = filename.endswith(('.mp4', '.avi', '.mov'))
@@ -204,7 +206,7 @@ def search_annotation():
             annotated_image = cv2.imread(image_path)
 
         for index, row in matched_boxes.iterrows():
-            box = np.array(eval(row['box'])).astype(int)  # Convert string to numpy array
+            box = np.array(ast.literal_eval(row['box'])).astype(int)  # Convert string to numpy array
             cv2.rectangle(annotated_image, (box[0], box[1]), (box[2], box[3]), (0, 255, 0), 2)
             cv2.putText(annotated_image, row['label'], (box[0], box[1] - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 0, 0), 1,
                         cv2.LINE_AA)
@@ -241,10 +243,14 @@ def get_coco_categories():
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
 def serve(path):
-    if path != "" and os.path.exists(os.path.join(app.static_folder, path)):
-        return send_from_directory(app.static_folder, path)
-    else:
-        return send_from_directory(app.static_folder, 'index.html')
+    if path != "":
+        try:
+            safe_path = safe_join(app.static_folder, path)
+        except Exception:
+            safe_path = None
+        if safe_path is not None and os.path.exists(safe_path):
+            return send_from_directory(app.static_folder, path)
+    return send_from_directory(app.static_folder, 'index.html')
 
 if __name__ == '__main__':
     socketio.run(app, host='0.0.0.0', port=5000)

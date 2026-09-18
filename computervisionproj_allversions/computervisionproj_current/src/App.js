@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import './App.css';
 
+// Only blob: URLs created locally via URL.createObjectURL() may be rendered as media previews.
+const isPreviewUrl = (url) => typeof url === 'string' && url.startsWith('blob:');
+
 function App() {
   const [file, setFile] = useState(null);
   const [selectedType, setSelectedType] = useState(null); // 'image' or 'video'
@@ -231,9 +234,9 @@ const handleAnnotationClick = async (annotation) => {
                 <h2>Original {selectedType === 'image' ? 'Image' : 'Video'}</h2>
                 {originalFileUrl ? (
                   selectedType === 'image' ? (
-                    <img src={originalFileUrl} alt='Original' className='preview' />
+                    <img src={isPreviewUrl(originalFileUrl) ? originalFileUrl : undefined} alt='Original' className='preview' />
                   ) : (
-                    <video src={originalFileUrl} controls className='preview' />
+                    <video src={isPreviewUrl(originalFileUrl) ? originalFileUrl : undefined} controls className='preview' />
                   )
                 ) : (
                   <div className='placeholder'>No {selectedType} selected</div>

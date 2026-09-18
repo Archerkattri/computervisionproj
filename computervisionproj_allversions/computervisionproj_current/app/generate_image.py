@@ -1,3 +1,4 @@
+import ast
 import cv2
 import os
 import time
@@ -49,7 +50,7 @@ def init_app(app):
 
                     try:
                         # Convert string representation of list to list of ints
-                        x1, y1, x2, y2 = map(int, eval(box))
+                        x1, y1, x2, y2 = map(int, ast.literal_eval(box))
                         cv2.rectangle(annotated_image, (x1, y1), (x2, y2), (255, 0, 0), 2)  # Draw rectangle with blue color
                         cv2.putText(annotated_image, label, (x1, y1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 0, 0), 2)
                     except (ValueError, SyntaxError):

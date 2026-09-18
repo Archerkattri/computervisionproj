@@ -1,3 +1,4 @@
+import ast
 import os
 import pandas as pd
 import numpy as np
@@ -47,7 +48,7 @@ def search_annotation(filename, query):
                 return jsonify({'error': 'Could not read image.'}), 500
 
         for index, row in matched_boxes.iterrows():
-            box = np.array(eval(row['box'])).astype(int)
+            box = np.array(ast.literal_eval(row['box'])).astype(int)
             cv2.rectangle(annotated_image, (box[0], box[1]), (box[2], box[3]), (0, 255, 0), 2)
             cv2.putText(annotated_image, row['label'], (box[0], box[1] - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 0, 0), 1,
                         cv2.LINE_AA)

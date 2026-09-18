@@ -4,6 +4,7 @@ import time
 import torch
 import pandas as pd
 from flask import Flask, jsonify, request
+from werkzeug.utils import secure_filename
 from PIL import Image
 from pycocotools.coco import COCO
 from .config import COCO_ANNOTATIONS_PATH, SCORE_THRESHOLD, upload_folder
@@ -128,7 +129,10 @@ def init_app(app: Flask) -> None:
             return jsonify({'error': 'Image name not provided'}), 400
 
         # Construct image file path
-        image_path = os.path.join(upload_folder, image_name)
+        safe_image_name = secure_filename(image_name)
+        if not safe_image_name:
+            return jsonify({'error': 'Invalid image name'}), 400
+        image_path = os.path.join(upload_folder, safe_image_name)
 
         if not os.path.isfile(image_path):
             return jsonify({'error': 'Image file does not exist'}), 404
@@ -136,7 +140,7 @@ def init_app(app: Flask) -> None:
         try:
             # Open the image file
             image = Image.open(image_path)
-            file_name = image_name
+            file_name = safe_image_name
 
             # Process each model
             all_results = {}

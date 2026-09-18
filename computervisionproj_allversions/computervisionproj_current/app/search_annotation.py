@@ -1,6 +1,7 @@
 import os
 import pandas as pd
 from flask import Blueprint, jsonify, request
+from werkzeug.utils import secure_filename
 from .config import upload_folder
 
 search_annotation_bp = Blueprint('search_annotation', __name__)
@@ -18,7 +19,8 @@ def search_annotation():
 
     for csv_file_name in csv_file_names:
         # Load CSV for the filename
-        temp_csv_path = os.path.join(upload_folder, csv_file_name)
+        safe_csv_name = secure_filename(csv_file_name)
+        temp_csv_path = os.path.join(upload_folder, safe_csv_name)
         if not os.path.exists(temp_csv_path):
             print(f"CSV file not found: {temp_csv_path}")
             continue

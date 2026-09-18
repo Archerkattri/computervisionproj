@@ -2,6 +2,7 @@
 import os
 import pandas as pd
 from flask import Blueprint, jsonify, request
+from werkzeug.utils import secure_filename
 from .config import upload_folder
 
 search_annotation_bp = Blueprint('search_annotation', __name__)
@@ -15,7 +16,8 @@ def search_annotation():
     print(f"Received search request for '{query}' in {filename}")
 
     # Load CSV for the filename
-    temp_csv_path = os.path.join(upload_folder, f'{filename}.csv')
+    safe_filename = secure_filename(filename or '')
+    temp_csv_path = os.path.join(upload_folder, f'{safe_filename}.csv')
     if not os.path.exists(temp_csv_path):
         print(f"CSV file not found: {temp_csv_path}")
         return jsonify({'error': 'CSV file not found'}), 404
@@ -41,7 +43,7 @@ def search_annotation():
         return jsonify({'error': 'Error parsing CSV file'}), 400
     except Exception as e:
         print(f"Error searching annotations: {e}")
-        return jsonify({'error': str(e)}), 500
+        return jsonify({'error': 'Error searching annotations'}), 500
 
 def init_app(app):
     app.register_blueprint(search_annotation_bp)

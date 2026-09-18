@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import './App.css';
 
+// Only blob: URLs created locally via URL.createObjectURL() may be rendered as media previews.
+const isPreviewUrl = (url) => typeof url === 'string' && url.startsWith('blob:');
+
 function App() {
   const [file, setFile] = useState(null);
   const [originalImage, setOriginalImage] = useState(null);
@@ -62,7 +65,7 @@ function App() {
         <div className="image-container">
           <div className="image-box">
             <h2>Original Image</h2>
-            {originalImage ? <img src={originalImage} alt="Original" className="preview" /> : <div className="placeholder">No image selected</div>}
+            {originalImage ? <img src={isPreviewUrl(originalImage) ? originalImage : undefined} alt="Original" className="preview" /> : <div className="placeholder">No image selected</div>}
           </div>
           <div className="image-box">
             <h2>Annotated Image</h2>

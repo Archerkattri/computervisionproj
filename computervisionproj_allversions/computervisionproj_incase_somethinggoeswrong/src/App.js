@@ -2,6 +2,9 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
 
+// Only blob: URLs created locally via URL.createObjectURL() may be rendered as media previews.
+const isPreviewUrl = (url) => typeof url === 'string' && url.startsWith('blob:');
+
 function App() {
   const [file, setFile] = useState(null);
   const [selectedType, setSelectedType] = useState(null); // 'image' or 'video'
@@ -182,10 +185,10 @@ function App() {
                 <h2>Original {selectedType === 'image' ? 'Image' : 'Video'}</h2>
                 {originalFileUrl ? (
                   selectedType === 'image' ? (
-                    <img src={originalFileUrl} alt="Original" className="preview" />
+                    <img src={isPreviewUrl(originalFileUrl) ? originalFileUrl : undefined} alt="Original" className="preview" />
                   ) : (
                     <video controls className="preview">
-                      <source src={originalFileUrl} type={file.type} />
+                      <source src={isPreviewUrl(originalFileUrl) ? originalFileUrl : undefined} type={file.type} />
                       Your browser does not support the video tag.
                     </video>
                   )
